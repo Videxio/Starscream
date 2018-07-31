@@ -17,6 +17,9 @@
 		5C1360081C473BEF00AA3A01 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1360011C473BEF00AA3A01 /* WebSocket.swift */; };
 		5C1360091C473BEF00AA3A01 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1360011C473BEF00AA3A01 /* WebSocket.swift */; };
 		5C13600A1C473BEF00AA3A01 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1360011C473BEF00AA3A01 /* WebSocket.swift */; };
+		65C5F146211090C200837D19 /* StarscreamWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F145211090C200837D19 /* StarscreamWebSocket.swift */; };
+		65C5F147211090D000837D19 /* StarscreamWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F145211090C200837D19 /* StarscreamWebSocket.swift */; };
+		65C5F148211090D000837D19 /* StarscreamWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F145211090C200837D19 /* StarscreamWebSocket.swift */; };
 		742419BC1DC6BDBA003ACE43 /* StarscreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742419BB1DC6BDBA003ACE43 /* StarscreamTests.swift */; };
 		742419BD1DC6BDBA003ACE43 /* StarscreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742419BB1DC6BDBA003ACE43 /* StarscreamTests.swift */; };
 		742419BE1DC6BDBA003ACE43 /* StarscreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742419BB1DC6BDBA003ACE43 /* StarscreamTests.swift */; };
@@ -71,6 +74,7 @@
 		5C1360011C473BEF00AA3A01 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = SOURCE_ROOT; };
 		5C13600B1C473BFE00AA3A01 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Source/Info-tvOS.plist"; sourceTree = SOURCE_ROOT; };
 		5C13600C1C473BFE00AA3A01 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		65C5F145211090C200837D19 /* StarscreamWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StarscreamWebSocket.swift; path = Source/StarscreamWebSocket.swift; sourceTree = SOURCE_ROOT; };
 		6B3E79E619D48B7F006071F7 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3E79F119D48B7F006071F7 /* Starscream iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starscream iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3E7A0019D48C2F006071F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 				5C1360011C473BEF00AA3A01 /* WebSocket.swift */,
 				D88EAF7E1ED4DFB5004FE2C3 /* Compression.swift */,
 				6B3E79E919D48B7F006071F7 /* Supporting Files */,
+				65C5F145211090C200837D19 /* StarscreamWebSocket.swift */,
 			);
 			path = Starscream;
 			sourceTree = "<group>";
@@ -460,6 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C5F148211090D000837D19 /* StarscreamWebSocket.swift in Sources */,
 				D88EAF8A1ED4E88D004FE2C3 /* Compression.swift in Sources */,
 				5C13600A1C473BEF00AA3A01 /* WebSocket.swift in Sources */,
 				5C1360041C473BEF00AA3A01 /* SSLSecurity.swift in Sources */,
@@ -482,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C5F146211090C200837D19 /* StarscreamWebSocket.swift in Sources */,
 				D88EAF7F1ED4DFB5004FE2C3 /* Compression.swift in Sources */,
 				5C1360081C473BEF00AA3A01 /* WebSocket.swift in Sources */,
 				5C1360021C473BEF00AA3A01 /* SSLSecurity.swift in Sources */,
@@ -504,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C5F147211090D000837D19 /* StarscreamWebSocket.swift in Sources */,
 				D88EAF881ED4E88C004FE2C3 /* Compression.swift in Sources */,
 				5C1360091C473BEF00AA3A01 /* WebSocket.swift in Sources */,
 				5C1360031C473BEF00AA3A01 /* SSLSecurity.swift in Sources */,
